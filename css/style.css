@@ -1,0 +1,51 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Geometria;
+  background-color: #2C7580;
+  color: #ccc;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 300px;
+}
+
+.select {
+  width: 150px;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.wrapper {
+  position: absolute;
+  width: 500px;
+  height: fit-content;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.mypict {
+  float: right;
+  right: 0;
+}
