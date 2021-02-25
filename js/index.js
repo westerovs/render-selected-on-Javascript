@@ -11,7 +11,7 @@ const description = {
 const descriptionArr = [description.fox, description.raccoon, description.wolf];
 
 // путь к изображениям
-const imgPath = '../img/';
+const imgPath = 'img/';
 
 // перем. для записи ссылок на объекты
 let select = null;
